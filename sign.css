@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    background: linear-gradient(lightblue,skyblue,white);
+    height: 100vh;
+}
+button{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-left: 400px;
+    padding: 20px 20px;
+    width: 500px;
+    color: white;
+    background-color: #007B82;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+#btn1{
+    margin-top: 100px;
+}
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 609px;
+    position: absolute;
+    width: 130px;
+    background: radial-gradient(rgb(117, 0, 128), rgb(56, 28, 218));
+    z-index: 2;
+    text-align: center;
+
+}
+#container li a{
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+.a:hover{
+    font-weight: bold;
+}
+#li{
+    color: turquoise;
+    font-weight: bolder;
+    
+}
+hr{
+    height:8px;
+    background-color: violet;
+    border: none;
+}
+#background{
+    width: 110px;
+    height: 120px;
+    border-radius:10px 0px 10px 10px;
+    margin-left: 1153px;
+}
+#background{
+    width: 110px;
+    height: 120px;
+    border-radius:10px 0px 10px 10px;
+    margin-left: 1169px;
+    margin-top: -25px;
+}
+@media only screen and (max-width:600px){
+    button{
+        width: 300px;
+        margin-left: 150px;
+    }
+}
