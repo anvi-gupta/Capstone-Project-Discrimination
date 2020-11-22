@@ -133,11 +133,16 @@ span:hover{
     transition: 0.6s ease;
 }
 @media only screen and (max-width:600px){
-
+    #scroll{
+        margin-left: 190px;
+    }
     header>h1{
         margin-right: 10px;
     }
     #ahref{
         margin-left: 100px;
+    }
+    #background{
+        display: none;
     }
 }

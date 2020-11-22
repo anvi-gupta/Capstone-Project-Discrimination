@@ -145,4 +145,10 @@ span:hover{
     #ahref{
         margin-left: 100px;
     }
+    #scroll{
+        margin-left: 190px;
+    }
+    #background{
+        display: none;
+    }
 }

@@ -94,7 +94,7 @@ input[type="submit"]{
         width: 280px;
         margin-left: 130px;
         font-size: 10px;
-        
+        margin-top: 10px;
     }
     textarea{
         width: 200px;
@@ -104,6 +104,9 @@ input[type="submit"]{
        
     }
     #container{
-        height: 139%;
+        height: 141%;
+    }
+    #background{
+        display: none;
     }
 }
