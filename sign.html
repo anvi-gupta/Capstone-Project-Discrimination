@@ -23,8 +23,19 @@
 <br>
 <img id="background" src="./assets/Screenshot (68).png" alt="">
     <a href="./signup.html"><button id="btn1">Sign up</button><br><br><br></a>
-    <a href="./why.html" target="blank"><button id="btn2">Why should I sign up?</button></a>
-
-    </script>
+    <button onclick="btn2()" id="btn2">Why should I sign up?</button>
+<div id="div">
+    <h1>Why should I sign up to your website?</h1>
+    <br>
+    <p>We are on a mission to reduce social issues and the problems they cause to people's lives.
+        If you want to join us to make a change in the society and be a change maker, feel free to sign up to 
+        our website and we will let you know more as we grow.
+</div>
+   <script>
+       function btn2(){
+           document.getElementById("btn2").style.display="none";
+           document.getElementById("div").style.display="inherit";
+       }
+   </script>
 </body>
 </html>

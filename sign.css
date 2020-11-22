@@ -69,6 +69,15 @@ hr{
     margin-left: 1169px;
     margin-top: -25px;
 }
+div{
+    display: none;
+    text-align: center;
+    font-size: 20px;
+}
+div p{
+    font-weight: bold;
+    margin-left: 120px;
+}
 @media only screen and (max-width:600px){
     button{
         width: 300px;
@@ -76,5 +85,14 @@ hr{
     }
     #background{
         display: none;
+    }
+    div>h1{
+        margin-left: 160px;
+    }
+    div{
+        font-size: 15px;
+    }
+    div p{
+        margin-left: 140px;
     }
 }
