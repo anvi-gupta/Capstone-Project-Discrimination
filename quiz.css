@@ -14,7 +14,7 @@ body{
     justify-content: space-evenly;
     flex-direction: column;
     height: 609px;
-    position: absolute;
+    position: fixed;
     width: 130px;
     background: radial-gradient(rgb(117, 0, 128), rgb(56, 28, 218));
     z-index: 2;
